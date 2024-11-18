@@ -9,15 +9,16 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/circular-modified.png" rel="icon"> 
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com" rel="preconnect"> -->
+  <!-- <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/font.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -44,9 +45,8 @@
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#features">Features</a></li>
+          <!-- <li><a href="#features">Features</a></li> -->
           <li><a href="#services">Services</a></li>
-          <li><a href="#pricing">Pricing</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -65,8 +65,14 @@
             </ul>
           </li> -->
           <li><a href="#contact">Contact</a></li>
+          <!-- <li>
+            <a href="#contact" class="text-blue-500 hover:text-white hover:bg-blue-600 py-2 px-4 rounded transition">
+              Request Demo
+            </a>
+          </li> -->
+          
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list "></i>
       </nav>
 
       <!-- <a class="btn-getstarted" href="index.html#about">Get Started</a> -->
@@ -100,10 +106,10 @@
           </p>
 
           <div class="hero-buttons">
-            <a href="#features" class="btn btn-primary me-0 me-sm-2 mx-1">Discover Our Features</a>
-            <a href="#demo" class="btn btn-link mt-2 mt-sm-0 glightbox">
-              <i class="bi bi-play-circle me-1"></i>
-              Schedule a Free Demo
+            <!-- <a href="#contact" class="btn btn-primary me-0 me-sm-2 mx-1 ">Request Free Demo</a> -->
+            <a href="#contact" class="btn-primary me-0 me-sm-2 mx-1 ">
+              <i class="bi bi-play-circle me-2"></i>
+              Request Free Demo
             </a>
           </div>
         </div>
@@ -210,7 +216,7 @@
           </div>
         </div>
 
-        <div class="info-wrapper">
+        <!-- <div class="info-wrapper">
           <div class="row gy-4">
             <div class="col-lg-5">
               <div class="profile d-flex align-items-center gap-3">
@@ -231,7 +237,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
@@ -257,128 +263,10 @@
 
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row g-5">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Samyak Ghagargunde</h3>
-              <h4>Ceo &amp; Founder</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Omkar Gore</h3>
-              <h4>Coo &amp; Co Founder</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Ankit Pinge</h3>
-              <h4>CTO</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Piyush Morey</h3>
-              <h4>Freelancer</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
+    
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
+   
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
@@ -402,7 +290,7 @@
               <div>
                 <h3>Grocery Store Management</h3>
                 <p>Manage your grocery empire with ease! Our software offers advanced inventory management, seamless point-of-sale integration, and dynamic pricing capabilities tailored for the fast-paced grocery environment.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
@@ -416,7 +304,7 @@
               <div>
                 <h3>Medical Shop Management</h3>
                 <p>Efficiently run your medical shop with our solution that automates prescription management, ensures compliance with healthcare regulations, and streamlines billing processes.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a  class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
@@ -430,7 +318,7 @@
               <div>
                 <h3>Custom Solutions for Retailers</h3>
                 <p>Each retail sector has its nuances, and our software is built to accommodate. From boutiques to hardware stores, Creativelancing delivers customized solutions that optimize operations and customer engagement.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
@@ -444,7 +332,7 @@
               <div>
                 <h3>Billing Software CMS</h3>
                 <p>Simplify your business processes with our comprehensive billing software CMS. From invoice generation to financial reports, our platform helps manage billing tasks efficiently while ensuring accuracy and compliance.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a  class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
@@ -457,138 +345,7 @@
     
 
   <!-- Pricing Section -->
-<section id="pricing" class="pricing section light-background">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Pricing</h2>
-    <p>Flexible pricing based on your project's needs and client demands. Tailored solutions for every business!</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row g-4 justify-content-center">
-
-      <!-- Basic Plan -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="pricing-card">
-          <h3>Basic Plan</h3>
-          <div class="price">
-            <span class="currency">$</span>
-            <span class="amount">9.9</span>
-            <span class="period">/ month</span>
-          </div>
-          <p class="description">Ideal for startups or small businesses. Basic features to get you started and expand your operations as you grow.</p>
-
-          <h4>Featured Included:</h4>
-          <ul class="features-list">
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Access to core tools
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Basic analytics dashboard
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              24/7 email support
-            </li>
-          </ul>
-
-          <a href="#" class="btn btn-primary">
-            Buy Now
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div><!-- End Service Card -->
-
-      <!-- Standard Plan -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="pricing-card popular">
-          <div class="popular-badge">Most Popular</div>
-          <h3>Standard Plan</h3>
-          <div class="price">
-            <span class="currency">$</span>
-            <span class="amount">19.9</span>
-            <span class="period">/ month</span>
-          </div>
-          <p class="description">A perfect fit for growing businesses that need more advanced features and customizations to meet their operational demands.</p>
-
-          <h4>Featured Included:</h4>
-          <ul class="features-list">
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Advanced inventory management
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Real-time analytics and insights
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Priority email and chat support
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Automated reports and alerts
-            </li>
-          </ul>
-
-          <a href="#" class="btn btn-light">
-            Buy Now
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div><!-- End Service Card -->
-
-      <!-- Premium Plan -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="pricing-card">
-          <h3>Premium Plan</h3>
-          <div class="price">
-            <span class="currency">$</span>
-            <span class="amount">39.9</span>
-            <span class="period">/ month</span>
-          </div>
-          <p class="description">For enterprises and large businesses needing full customization, top-tier support, and the most powerful features.</p>
-
-          <h4>Featured Included:</h4>
-          <ul class="features-list">
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Complete customization and scalability
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              AI-powered insights and predictions
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Dedicated account manager and support
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Priority access to new features
-            </li>
-            <li>
-              <i class="bi bi-check-circle-fill"></i>
-              Monthly strategy and consultation sessions
-            </li>
-          </ul>
-
-          <a href="#" class="btn btn-primary">
-            Buy Now
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div><!-- End Service Card -->
-
-    </div>
-
-  </div>
-
-</section><!-- /Pricing Section -->
+<!-- /Pricing Section -->
 
 
   <!-- Faq Section -->
@@ -714,12 +471,12 @@
             </div>
             <div class="content">
               <h4>Our Location</h4>
-              <p>087 Baner, Pune</p>
+              <p>Baner, Pune</p>
               <p>Maharashtra, India</p>
             </div>
           </div>
 
-          <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+          <!-- <div class="info-item" data-aos="fade-up" data-aos-delay="400">
             <div class="icon-box">
               <i class="bi bi-telephone"></i>
             </div>
@@ -728,7 +485,7 @@
               <p>+1 5589 55488 55</p>
               <p>+1 6678 77887 78</p>
             </div>
-          </div>
+          </div> -->
 
           <div class="info-item" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
@@ -736,8 +493,8 @@
             </div>
             <div class="content">
               <h4>Email Address</h4>
-              <p>info@creativelancing.com</p>
               <p>support@creativelancing.com</p>
+              <p>creativelancing09@gmail.com</p>
             </div>
           </div>
         </div>
@@ -747,44 +504,48 @@
         <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
           <h3>Get In Touch</h3>
           <p>We would love to hear from you! Please fill out the form below and we will get back to you as soon as possible.</p>
-
-          <!-- Google Form Integration -->
-          <form action="https://docs.google.com/forms/d/e/1FAIpQLSd55ibGf3_rJYvKfyE0hvegxK2YjGfE7e2QeXJHEBfXEmZvDg/formResponse" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+      
+          <!-- Contact Form that sends directly to Gmail -->
+          <form id="myForm" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
             <div class="row gy-4">
-
+              
               <!-- Name Field -->
               <div class="col-md-6">
-                <input type="text" name="entry.2005620554" class="form-control" placeholder="Your Name" required="">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
               </div>
-
+          
               <!-- Email Field -->
               <div class="col-md-6">
-                <input type="email" name="entry.1045781291" class="form-control" placeholder="Your Email" required="">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required="">
               </div>
-
+          
               <!-- Subject Field -->
               <div class="col-12">
-                <input type="text" name="entry.1166974658" class="form-control" placeholder="Subject" required="">
+                <input type="text" name="subject" class="form-control" placeholder="Subject" required="">
               </div>
-
+          
               <!-- Message Field -->
               <div class="col-12">
-                <textarea class="form-control" name="entry.839337160" rows="6" placeholder="Message" required=""></textarea>
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
               </div>
-
+          
               <div class="col-12 text-center">
-                <div class="loading">Loading</div>
+                <!-- Loading, Error, and Success Messages -->
+                <div class="loading">Loading...</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
-
+          
+                <!-- Submit Button -->
                 <button type="submit" class="btn btn-primary">Send Message</button>
               </div>
-
+          
             </div>
           </form>
-
+          
+          
         </div>
       </div>
+      
 
     </div>
 
@@ -807,14 +568,14 @@
           <div class="footer-contact pt-3">
             <p>Baner, Pune</p>
             <p>Maharashtra, India</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+917030697448</span></p>
+            <!-- <p class="mt-3"><strong>Phone:</strong> <span>+917030697448</span></p> -->
             <p><strong>Email:</strong> <span>Support@Creativelancing.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/creativelancing/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/creativelancing-services-8653a1339/"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
