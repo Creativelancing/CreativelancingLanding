@@ -168,35 +168,3 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
-
-document.getElementById('myForm').addEventListener('submit', function(event) {
-  event.preventDefault();  // Prevent default form submission
-  
-  var formData = new FormData(this);
-  
-  // Logging form data to the console before submitting
-  console.log('Form Data:', Object.fromEntries(formData.entries()));
-
-  // Create an XMLHttpRequest to send the form data to the Google Apps Script
-  var xhr = new XMLHttpRequest();
-  xhr.open("POST", "https://script.google.com/macros/s/AKfycbyBWMlZ6VklDjRLWfyXfNP1XPo3si8oIhEac65Kw5hlWdXctv4zTxCLk6YOauG1ZLEo/exec", true); // Replace with your Google Apps Script web app URL
-  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  
-  // Convert FormData to a query string
-  var queryString = new URLSearchParams(formData).toString();
-  
-  // Send the data
-  xhr.send(queryString);
-
-  // Show success message and reset form
-  xhr.onload = function() {
-      if (xhr.status === 200) {
-          console.log("Data saved successfully!");
-          document.querySelector('.sent-message').style.display = 'block';
-          document.getElementById('myForm').reset();
-      } else {
-          console.error("Error saving data:", xhr.status);
-          document.querySelector('.error-message').style.display = 'block';
-      }
-  };
-});
